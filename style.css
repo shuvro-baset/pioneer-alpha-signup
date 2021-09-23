@@ -1,0 +1,100 @@
+
+
+/* roboto font import*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* left side css*/
+.left-part{
+    height: 100vh;
+    background-image: url(images/bg-main.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.left-part img{
+    width: auto;
+    height: 580px;
+}
+
+/* login form start */
+.login-form{
+    height: 580px;
+    padding: 60px;
+    position: absolute;
+    top: 5%;
+    left: 55%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+
+}
+.pioneer-logo{
+    Width :77px;
+    Height:70px;
+    margin-bottom: 15px;
+}
+.login-form p{
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+    color: #473558;
+}
+.forget-text{
+    width: 90%;
+}
+small{
+    padding: 0 10px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FF0000;
+}
+input{
+    height: 53px;
+    width: 380px;
+    background: #FFFFFF;
+    border: 2px solid #666666;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.btn-login{
+    background: #625A99;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+.bar{
+    content: "";
+    height: 2px;
+    width: 145px;
+    background: #666666;
+}
+.google-img{
+    height: 55px;
+    width: 55px;
+}
+.facebook-img{
+    height: 50px;
+    width: 50px;
+    background: #3B5998;
+    border-radius: 50%;
+}
+.signup-text{
+    font-size: 15px !important;
+    color: #707070 !important;
+}
+.signup-text a{
+    text-decoration: none;
+}
