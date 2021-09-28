@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +11,7 @@
     <!-- fontawesome  -->
     <script src="https://kit.fontawesome.com/fb93ded780.js" crossorigin="anonymous"></script>
     <!-- custom css  -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
 <body>
 
@@ -19,15 +20,15 @@
             <div class="row d-flex justify-content-center align-items-center">
                 <!-- left part  -->
                 <div class="col-lg-7 left-part d-flex justify-content-center align-items-center">
-                    <img src="images/log_in.png" class="img-fluid" alt="">
+                    <img src="{% static '/images/log_in.png' %}" class="img-fluid" alt="">
                 </div>
                 <!-- right part  -->
                 <div class="col-lg-5">
                     <div class="login-form d-flex flex-column justify-content-center align-items-center">
-                        <img src="images/logo.png" class="pioneer-logo" alt="">
+                        <img src="{% static 'images/logo.png' %}" class="pioneer-logo" alt="">
                         <p>Explore new courses... Hurry up!!</p>
-                        <input type="email" placeholder="Email Address">
-                        <input type="password" placeholder="Password">
+                        <input type="email" name="email" placeholder="Email Address">
+                        <input type="password" name="password" placeholder="Password">
                         <div class='d-flex justify-content-end forget-text'>
                             <small>Forget Password</small>
                         </div>
@@ -39,8 +40,8 @@
                         </div>
 
                         <div class="social-icon">
-                            <img class="facebook-img mx-2" src="images/Facebook-logo.png" alt="">
-                            <img class="google-img mx-2" src="images/google.png" alt="">
+                            <img class="facebook-img mx-2" src="{% static 'images/Facebook-logo.png' %}" alt="">
+                            <img class="google-img mx-2" src="{% static 'images/google.png' %}" alt="">
                         </div>
                         <p class="signup-text my-2">Don't have an account? <a href="">Sign Up</a> </p>
                     </div>
